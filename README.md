@@ -1,3 +1,5 @@
+<a name="oben"></a>
+
 ## Eieruhr
 
 Mit diesem Projekt wird eine Eieruhr mit zwei 64LED-Matrix-Modulen realisiert. Schalter 1 ist der Einschalter und mit Schalter 2 kann zwischen 3 Zeiten gewählt werden, 5 Minuten, 5 Minuten 30 Sekunden und 6 Minuten. Beim Einschalten ertönen, je nach gewählter Zeit, unterschiedliche Signale. Zusätzlich wird bei gewählten 5,5 Minuten zusätzlich ein Signal bei abgelaufenen 5 Minuten, bei gewählten 6 Minuten ein Signal bei 5 und 5,5 Minuten ausgegeben. Diese Zeiten können softwareseitig in nachfolgender Zeile verändert werden:
@@ -29,16 +31,41 @@ Die Hardware für die Eieruhr
 
 ## Verdrahtung
 
-![Schaltplan](/pic/schaltplan_eieruhr.png)
-
 Der Schaltplan
 
+![Schaltplan](/pic/schaltplan_eieruhr.png)
 
-![Shield](/pic/eieruhrshield.png)
+
 
 Das NANO-Shield
 
----
+![Shield](/pic/eieruhrshield.png)
+
+
+64 LED Matrix Module
+
+![Bild](/pic/eieruhr_max.jpg)
+
+NANO
+
+![Bild](/pic/eieruhr_nano.png)
+
+
+Schalter
+
+![Bild](/pic/eieruhr_schalter.png)
+
+
+Eieruhr
+
+![Bild](/pic/eieruhr_f.png)
+
+
+
+
+<div style="position:absolute; left:2cm; ">   
+<ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
+</div> 
 
 
 
