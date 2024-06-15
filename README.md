@@ -1,6 +1,10 @@
 <a name="oben"></a>
 
-## Eieruhr
+# Eieruhr
+
+![Bild](/pic/eieruhr_f.png)
+
+## Story
 
 Mit diesem Projekt wird eine Eieruhr mit zwei 64LED-Matrix-Modulen realisiert. Schalter 1 ist der Einschalter und mit Schalter 2 kann zwischen 3 Zeiten gewählt werden, 5 Minuten, 5 Minuten 30 Sekunden und 6 Minuten. Beim Einschalten ertönen, je nach gewählter Zeit, unterschiedliche Signale. Zusätzlich wird bei gewählten 5,5 Minuten zusätzlich ein Signal bei abgelaufenen 5 Minuten, bei gewählten 6 Minuten ein Signal bei 5 und 5,5 Minuten ausgegeben. Diese Zeiten können softwareseitig in nachfolgender Zeile verändert werden:
 int pause_5 = 136; int pause_5_5 = 149; int pause_6 = 162;
@@ -13,7 +17,7 @@ Beide Zeilen befinden sich im Deklarationsteil des Sketches.
 Eieruhr Anzeige mit einer 2 x 64 LED Matrix
 
 ---
-# Hardware
+## Hardware
 Die Hardware für die Eieruhr
 
 + 1 x NANO V31
@@ -56,9 +60,9 @@ Schalter
 ![Bild](/pic/eieruhr_schalter.png)
 
 
-Eieruhr
 
-![Bild](/pic/eieruhr_f.png)
+
+
 
 
 
