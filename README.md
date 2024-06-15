@@ -2,7 +2,9 @@
 
 # Eieruhr
 
-![Bild](/pic/eieruhr_f.png)
+![Eieruhr](/pic/eieruhr.png)
+
+Eieruhr Anzeige mit einer 2 x 64 LED Matrix
 
 ## Story
 
@@ -12,9 +14,9 @@ Die Zeiten für die Zwischensignale in der Zeile:
 byte beep_1 = 50; byte beep_2 = 44; byte beep_3 = 50;
 Beide Zeilen befinden sich im Deklarationsteil des Sketches.
 
-![Eieruhr](/pic/eieruhr.png)
 
-Eieruhr Anzeige mit einer 2 x 64 LED Matrix
+
+
 
 ---
 ## Hardware
